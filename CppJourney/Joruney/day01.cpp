@@ -7,7 +7,7 @@ int main()
 	std::string nazwa = "Malboro78";
 	std::string klasa = "Mag";
 	int poziom = 30;
-	int zdrowie = 20;
+	int zdrowie = 15;
 	int sila = 20;
 	int inteligencja = 50;
 	int wytrzymalosc = 10;
