@@ -2,20 +2,33 @@
 
 int main()
 {
-    int a;
-    int b;
+	int health{};
+	int defense{};
+	int DMG{};
 
-    std::cout << "Podaj liczbe a i b: ";
-    std::cin >> a >> b;
 
-    int suma = a + b;
-    int roznica = a - b;
-    int iloczyn = a * b;
-    int dzielenie = a / b;
+	std::cout << "Health: ";
+	std::cin >> health;
 
-    std::cout << "Suma: " << suma << '\n';
-    std::cout << "Roznica: " << roznica << '\n';
-    std::cout << "Iloczyn: " << iloczyn << '\n';
-    std::cout << "Dzielenie: " << dzielenie << '\n';
+	std::cout << "Defense: ";
+	std::cin >> defense;
 
+	std::cout << "Dmg: ";
+	std::cin >> DMG;
+	std::cout << '\n';
+
+	std::cout << "Stats " << '\n';
+	std::cout << "Health: " << health << '\n';
+	std::cout << "Defense: " << defense << '\n';
+	std::cout << "Dmg: " << DMG << '\n';
+	std::cout << '\n';
+
+
+	int damage = DMG - defense; // wynik bedzie ujemny jak defense bedzie mniejszy od DMG, potem naprawie to przez zywkła petle, pierw zrobie działanie na healthafter i potem if(healthafter < 0){healthafter = 0;}
+	int HPafter = health - damage;
+
+	std::cout << "Damage taken: " << damage << '\n';
+	std::cout << "Health after damage: " << HPafter << '\n';
+
+	std::cin.get();
 }
