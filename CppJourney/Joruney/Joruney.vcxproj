@@ -27,6 +27,7 @@
     <ProjectGuid>{04a62968-e398-4875-b50b-9f4ed1816f5f}</ProjectGuid>
     <RootNamespace>Joruney</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>day01</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
