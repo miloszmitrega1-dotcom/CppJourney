@@ -4,7 +4,7 @@
 int main()
 {
 	//sekcja danych gracza
-	std::string nazwa = "Malboro78";
+	std::string nazwa = "Malboro78Malboro78AB";
 	std::string klasa = "Mag";
 	int poziom = 30;
 	int zdrowie = 15;
@@ -14,14 +14,14 @@ int main()
 	int zrecznosc = 25;
 
 	//sekcja wyświetlania statystyk gracza
-	std::cout << "------------Statystyki------------\n";
-	std::cout << "Nazwa:		" << nazwa << "  \t|\n";
-	std::cout << "Klasa:		" << klasa << "  \t\t|\n";
-	std::cout << "Poziom:		" << poziom << "  \t\t|\n";
-	std::cout << "Zdrowie:	" << zdrowie << "  \t\t|\n";
-	std::cout << "Sila:		" << sila << "  \t\t|\n";
-	std::cout << "Inteligencja:	" << inteligencja << "  \t\t|\n";
-	std::cout << "Wytrzymalosc:	" << wytrzymalosc << "  \t\t|\n";
-	std::cout << "Zrecznosc:	" << zrecznosc << "  \t\t|\n";
-	std::cout << "----------------------------------\n";
+	std::cout << "------------Statystyki-----------\n";
+	std::cout << "Nazwa: " << nazwa << "		|\n";
+	std::cout << "Klasa: " << klasa << "			|\n";
+	std::cout << "Poziom: " << poziom << "			|\n";
+	std::cout << "Zdrowie: " << zdrowie << "			|\n";
+	std::cout << "Sila: " << sila << "			|\n";
+	std::cout << "Inteligencja: " << inteligencja << "		|\n";
+	std::cout << "Wytrzymalosc: " << wytrzymalosc << "		|\n";
+	std::cout << "Zrecznosc: " << zrecznosc << "			|\n";
+	std::cout << "---------------------------------\n";
 }
