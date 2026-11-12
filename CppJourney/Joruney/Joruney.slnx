@@ -4,5 +4,6 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="../day02/day02.vcxproj" Id="11a490a8-838b-40d0-9bde-a1aa8a829af9" />
+  <Project Path="../day03/day03.vcxproj" Id="aee03c69-95ae-447c-86b1-64cc510e3996" />
   <Project Path="Joruney.vcxproj" Id="04a62968-e398-4875-b50b-9f4ed1816f5f" />
 </Solution>
